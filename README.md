@@ -24,7 +24,7 @@ ADD CONSTRAINT `FK_person_id`
   REFERENCES `sqlandjava`.`people` (`id`)
   ON DELETE NO ACTION
   ON UPDATE NO ACTION,
-ADD CONSTRAINT `FK_carr_id`
+ADD CONSTRAINT `FK_car_id`
   FOREIGN KEY (`car_id`)
   REFERENCES `sqlandjava`.`cars` (`car_id`)
   ON DELETE NO ACTION
