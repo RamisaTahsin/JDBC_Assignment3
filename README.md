@@ -21,7 +21,7 @@ ADD INDEX `FK_carr_id_idx` (`car_id` ASC) VISIBLE;
 ALTER TABLE `sqlandjava`.`owners` 
 ADD CONSTRAINT `FK_person_id`
   FOREIGN KEY (`person_id`)
-  REFERENCES `sqlandjava`.`people` (`id`)
+  REFERENCES `sqlandjava`.`people` (`person_id`)
   ON DELETE NO ACTION
   ON UPDATE NO ACTION,
 ADD CONSTRAINT `FK_car_id`
